@@ -5,12 +5,12 @@
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                       ACHIEVE YOUR PERFECT BODY
                 </h1>
-                <a 
+                <a
                     href="/blog"
                     class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Read More
+                    Join Now
                 </a>
             </div>
         </div>
@@ -23,42 +23,45 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Need a BOOST to achive your peak performace ?
             </h2>
-            
+
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                We can help let you achive your goals EASILY! from our tried and tested supliments
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                FAST RESULTS, 100% GUARANTEE , 4LBS OF LEAN MUSCLE IN 4 WEEKS OR YOUR MONEY BACK !
             </p>
 
-            <a 
+            <a
                 href="/blog"
                 class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
+                REACH THE PEAK TODAY!
             </a>
         </div>
     </div>
 
     <div class="text-center p-15 bg-black text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+        <h2 class="text-2xl pb-5 text-l">
+            Here are some of our clients PRs
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            250KG DEAD LIFT - Martin M
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            120 BENCH - Nojus M
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            40KG BICEP CURL - Jakub L
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            185 SQUAT - Menouar K
         </span>
+        <h2 class="text-2xl pb-5 text-l"><br>
+            IF THEY CAN ACHIEVE THIS SO CAN YOU
+        </h2>
     </div>
 
     <div class="text-center py-15">
@@ -71,7 +74,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+           Latests posts from fellow members join the conversation today !
         </p>
     </div>
 
@@ -79,14 +82,14 @@
         <div class="flex bg-yellow-700 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
-                    PHP
+                    HIT A DREAM MILESTONE
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
+                    So today I hit a new PR of 100kg on bench press which I am so proud of I never tought I was going to be able to achive this. It has taken me almost 5 years to get
+                    to this stage I had my ups and downs but I just wanted to post this incase sombody needed that little bit of motivation today to go push them selves . YOU GOT THIS .                </h3>
 
-                <a 
+                <a
                     href=""
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Find Out More

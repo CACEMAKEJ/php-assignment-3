@@ -1,17 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="background">
 
-<img src="images\background1.jpg" alt="test">
+    <div class="background">
+        <img src="images\background1new.jpg" alt="test">
+
 
         <div class="flex text-gray-800 pt-10">
 
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
 
-                <h1 class="sm:text-yellow-300 text-5xl uppercase font-bold text-shadow-md pb-14">
+                <h1 class="sm:text-black text-5xl uppercase font-bold text-shadow-md pb-14">
+                    Don't Limit Yourself !!!
 
-                       ACHIEVE YOUR PERFECT BODY
 
                 </h1>
 
@@ -128,7 +129,7 @@
 
         </div>
         <div>
-            <img src="images\image2.jpg" alt="test">
+            <img src="images\image2new.jpg" alt="test">
         </div>
     </div>
 @endsection

@@ -47,7 +47,7 @@
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                        class="text-center bg-yellow-300 text-gray-900 py-1 px-1 font-bold text-lg  uppercase"
+                        class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1 font-bold text-lg  uppercase hover:bg-yellow-200"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +15,8 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c51eff10e9.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 h-screen antialiased leading-none font-sans">
     <div id="app">
@@ -67,5 +70,6 @@
             @include('layouts.footer')
         </div>
     </div>
+    
 </body>
 </html>

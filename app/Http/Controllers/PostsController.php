@@ -128,5 +128,19 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
+
+    public function like($id) {
+        $post = Post::find($id);
+        $post->likes++;
+        $post->save();
+        return response()->json(['status' => 'success', 'likes' => $post->likes]);
+    }
+
+    public function dislike($id) {
+        $post = Post::find($id);
+        $post-> dislikes++;
+        $post->save();
+        return response()->json(['status' => 'success', 'dislikes' => $post->dislikes]);
+    }
 }
 

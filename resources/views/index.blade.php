@@ -6,7 +6,7 @@
         <img src="images\lifting.webp" alt="test">
 
 
-
+        {{--code gotten from https://tailwindui.com/components/marketing/sections/pricing --}}
         <div class="bg-black py-24 sm:py-32">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
               {{-- <div class="mx-auto max-w-2xl sm:text-center">
@@ -216,43 +216,58 @@
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-300 text-gray-900 pt-10">
+        <div class="flex bg-black text-gray-900 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
+                <span class="uppercase  text-yellow-300 text-m">
                     "HIT A DREAM MILESTONE"-Lukas Bazel
                 </span>
 
-                <h3 class="text-xl font-bold py-10">
-                    So today I hit a new PR of 100kg on bench press which I am so proud of I never tought I was going to be able to achive this. It has taken me almost 5 years to get
-                    to this stage I had my ups and downs but I just wanted to post this incase sombody needed that little bit of motivation today to go push them selves . YOU GOT THIS .                </h3>
+                <h3 class="text-xl font  text-gray-100 -bold py-10">
+                    So today I hit a new PR of 100kg on bench press which I am so proud of I never tought I was going to be able to achive this
+                     It has taken me almost 5 years to get
+                    to this stage I had my ups and downs but I just wanted let you know YOU GOT THIS</h3>
 
                 <a
                     href=""
-                    class="uppercase bg-transparent border-2 border-gray-900 text-gray-900 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    class="uppercase bg-transparent border-2 border-yellow-300 text-gray-200 text-xs font-extrabold py-3 px-5 rounded-3xl   hover:bg-yellow-300">
                     Find Out More
                 </a>
 
             </div>
 
         </div>
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-            <span class="uppercase text-xs">
-                Ireland Fitness Report
-            </span>
-
-            <h3 class="text-xl font-bold py-10">
-                What is the fitness county in the Ireland? and how does gym use differ from region to region? Let us know how you rank among the rest
-                of the counties and hopefully get your county to number ONE !
-                 Find this and more out in our new report here.
-            <a
-                href=""
-                class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                Find Out More
-            </a>
-
-        </div>
-        <div>
-            <img src="images\image2new.jpg" alt="test">
-        </div>
+        <img src="images\image2new.jpg" alt="test">
     </div>
+    <br>
+
+        <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+        <div class="flex bg-black text-gray-900 pt-10">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <span class="uppercase  text-yellow-300 text-m">
+                    "Competition Time"-IrishFitness
+                </span>
+
+                <h3 class="text-xl font  text-gray-100 -bold py-10">
+                    What is the fitness county in the Ireland? and how does gym use differ from region to region? Let us know how you rank among the rest
+                     of the counties in IRELAND</h3>
+
+                <a
+                    href=""
+                    class="uppercase bg-transparent border-2 border-yellow-300 text-gray-200 text-xs font-extrabold py-3 px-5 rounded-3xl   hover:bg-yellow-300">
+                    Find Out More
+                </a>
+
+            </div>
+
+        </div>
+        <img src="images\background1new.jpg" alt="test">
+    </div>
+
+
+        <div>
+
+        </div>
+
+
+
 @endsection

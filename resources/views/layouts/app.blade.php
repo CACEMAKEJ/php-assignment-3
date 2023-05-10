@@ -41,13 +41,13 @@
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="no-underline hover:underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                        class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1 font-bold text-lg  uppercase hover:bg-yellow-200"
+                        class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">

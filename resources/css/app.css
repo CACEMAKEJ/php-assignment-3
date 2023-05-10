@@ -4,6 +4,7 @@
 
 @import "tailwindcss/utilities";
 
+@import "tailwindcss/forms";
 .background-image
 {
     background-image: url('https://wallpapercave.com/wp/wp8463802.jpg');

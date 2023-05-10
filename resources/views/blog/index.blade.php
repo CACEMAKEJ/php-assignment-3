@@ -48,6 +48,12 @@
             <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
+            
+            <button id="like-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+                <i class="fas fa-thumbs-up"></i> {{$post->likes}} </button>
+            
+            <button id="dislike-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+                <i class="fas fa-thumbs-down"></i> {{$post->dislikes}}</button>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">

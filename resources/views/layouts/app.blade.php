@@ -15,6 +15,8 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c51eff10e9.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
@@ -56,5 +58,6 @@
             @include('layouts.footer')
         </div>
     </div>
+    
 </body>
 </html>

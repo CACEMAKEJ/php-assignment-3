@@ -23,3 +23,5 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::post('/posts/{id}/likes', 'PostController@like')->name('posts.likes');
+Route::post('/posts/{id}/dislikes', 'PostController@dislike')->name('posts.dislikes');

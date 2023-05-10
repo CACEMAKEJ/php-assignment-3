@@ -39,13 +39,13 @@
 
                 <nav class="space-x-10 text-gray-300 text-lg font-semibold  sm:text-base float-right">
 
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
-                    <a class="no-underline hover:underline" href="/coaching">Coaching</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/">Home</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/blog">Blog</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/coaching">Coaching</a>
                     @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200 hover:text-black  transition duration-300 delay-150 hover:delay-300" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
@@ -70,6 +70,6 @@
             @include('layouts.footer')
         </div>
     </div>
-    
+
 </body>
 </html>

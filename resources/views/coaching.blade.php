@@ -12,7 +12,7 @@
                     We are dedicated to helping you transform your body and mind through the power of fitness
                 </p>
             </div>
-                <button class="joinBtn">
+                <button class="joinBtn" >
                     Join now
                 </button>
             </div>
@@ -44,7 +44,7 @@
             </a>
 
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Looking to tone your muscles and achieve a defined physique? Look no further than our personal trainer Ernest! He specializes in muscle toning, helping you achieve the results you've been dreaming of.</p>
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800  transition duration-300 delay-150 hover:delay-300">
             Read more
                 <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
@@ -60,7 +60,7 @@
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 Are you looking to improve your strength and build a powerful, athletic physique? Our personal trainer Mike is here to help! Mike specializes in weightlifting, offering customized workout plans designed to help you reach your goals.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800  transition duration-300 delay-150 hover:delay-300">
                 Read more
                 <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
@@ -75,7 +75,7 @@
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Quandale</h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Looking to shed those extra pounds and achieve your weight loss goals? Our personal trainer Quandale is here to help you get there! Quandale specializes in weight loss, offering customized workout plans and nutrition guidance designed to help you reach your ideal weight.</p>
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-yellow-300 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-200 dark:hover:bg-blue-700 dark:focus:ring-blue-800  transition duration-300 delay-150 hover:delay-300">
                 Read more
                 <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>

@@ -28,12 +28,12 @@
 @endif
 
 @foreach ($posts as $post)
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-800">
         <div>
             <img src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
         <div>
-            <h2 class="text-gray-700 font-bold text-5xl pb-4">
+            <h2 class="text-gray-900 uppercase font-bold text-5xl pb-4">
                 {{ $post->title }}
             </h2>
 
@@ -41,25 +41,25 @@
                 By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
             </span>
 
-            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+            <p class="text-xl text-gray-800 pt-8 pb-10 leading-8 font-medium">
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-yellow-300 text-gray-900 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class=" transition duration-300 delay-150 hover:delay-300 uppercase bg-yellow-300 text-gray-900 text-lg font-extrabold py-4 px-8 rounded-3xl hover:bg-black hover:text-yellow-300 hover:border-solid border-2 hover:border-gray-700 ">
                 Keep Reading
             </a>
-            
-            <button id="like-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+
+            <button id="like-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1 hover:text-green-500" data-post-id="{{ $post->id }}">
                 <i class="fas fa-thumbs-up"></i> {{$post->likes}} </button>
-            
-            <button id="dislike-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+
+            <button id="dislike-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1 hover:text-red-500" data-post-id="{{ $post->id }}">
                 <i class="fas fa-thumbs-down"></i> {{$post->dislikes}}</button>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
                     <a
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-gray-900 italic hover:text-gray-900 pb-1 border-b-2">
+                        class="text-gray-900 italic hover:text-gray-900 pb-1 border-b-2   ">
                         Edit
                     </a>
                 </span>

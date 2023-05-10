@@ -4,19 +4,10 @@
 
 @import "tailwindcss/utilities";
 
-
-.background-image 
+@import "tailwindcss/forms";
+.background-image
 {
-    background-image: url('https://t4.ftcdn.net/jpg/01/45/58/03/360_F_145580363_EYJxXoZlXNXVBifly22WSQj44WWTcZwg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 600px;
-}
-
-.coaching-background-image{
-    background-image: url('https://t4.ftcdn.net/jpg/01/45/58/03/360_F_145580363_EYJxXoZlXNXVBifly22WSQj44WWTcZwg.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp8463802.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

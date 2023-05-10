@@ -945,6 +945,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
+              
                 "source": "https://github.com/guzzle/guzzle/tree/7.5.1"
             },
             "funding": [
@@ -1084,6 +1085,11 @@
                 "bamarni-bin": {
                     "bin-links": true,
                     "forward-command": false
+
+                },
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+
                 }
             },
             "autoload": {

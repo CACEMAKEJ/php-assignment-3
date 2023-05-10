@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-gray-200">
+    <div class="py-15 border-b border-gray-800">
         <h1 class="text-6xl">
             Blog Posts
         </h1>
@@ -19,9 +19,9 @@
 
 @if (Auth::check())
     <div class="pt-15 w-4/5 m-auto">
-        <a 
+        <a
             href="/blog/create"
-            class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            class="bg-yellow-300 uppercase bg-transparent text-gray-900 text-xs font-extrabold py-3 px-5 rounded-3xl">
             Create post
         </a>
     </div>
@@ -45,7 +45,7 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class="uppercase bg-yellow-300 text-gray-900 text-lg font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
             
@@ -57,15 +57,15 @@
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
-                    <a 
+                    <a
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
+                        class="text-gray-900 italic hover:text-gray-900 pb-1 border-b-2">
                         Edit
                     </a>
                 </span>
 
                 <span class="float-right">
-                     <form 
+                     <form
                         action="/blog/{{ $post->slug }}"
                         method="POST">
                         @csrf
@@ -80,8 +80,10 @@
                     </form>
                 </span>
             @endif
+
+
         </div>
-    </div>    
+    </div>
 @endforeach
 
 @endsection

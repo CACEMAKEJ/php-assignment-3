@@ -4,9 +4,10 @@
 
 @import "tailwindcss/utilities";
 
-.background-image 
+@import "tailwindcss/forms";
+.background-image
 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/07/31/23/45/pen-2562078_960_720.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp8463802.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

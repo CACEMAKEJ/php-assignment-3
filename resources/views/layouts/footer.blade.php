@@ -3,29 +3,34 @@
 
     <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-yellow-300">
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
+            <h3 class="text-l sm:font-bold text-gray-100 ">
                 Pages
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+            <ul class="py-4 sm:text-s pt-4 text-gray-500 ">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/blog">
                         Blog
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/login">
                         Login
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/register">
                         Register
+                    </a>
+                </li>
+                <li class="pb-1 hover:text-gray-100">
+                    <a href="/coaching">
+                        Coaching
                     </a>
                 </li>
             </ul>
@@ -36,54 +41,64 @@
                 Find Us
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+            <ul class="py-4 sm:text-s pt-4 text-gray-500">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
                         What we do
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
                         Address
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
                         Phone
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
                         Contact
+                    </a>
+                </li>
+                <li class="pb-1 hover:text-gray-100">
+                    <a href="/">
+                        Social Media
                     </a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
+            <h3 class="text-l sm:font-bold text-gray-100 ">
                 Latest posts
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+            <ul class="py-4 sm:text-s pt-4 text-gray-500">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
-                        Why the gym is the best place
+                        Why the gym is the best place.
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
-                        My top 10 best high protien meals
+                        My top 10 best high protien meals.
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
-                        Upper workout routine
+                        Upper workout routine.
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-1 hover:text-gray-100">
                     <a href="/">
-                        Recommendations on Protien?
+                        Recommendations on Protien?.
+                    </a>
+                </li>
+                <li class="pb-1 hover:text-gray-100">
+                    <a href="/">
+                        Do not try this Deadlift Trick.
                     </a>
                 </li>
             </ul>

@@ -139,11 +139,9 @@
 
                 </h1>
 
-                <a
-                    href="/blog"
-                    class="text-center bg-yellow-300 text-gray-900 py-2 px-4 font-bold text-xl uppercase">
-                    Join Now
-                </a>
+                <button class="joinBtn m-auto">
+                    Join now
+                </button>
             </div>
             </div>
         </div>

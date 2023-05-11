@@ -37,7 +37,7 @@
                 </div>
                 <img src="images\newnewlogo.png" alt="test" class="logoImage">
 
-                <nav class="space-x-10 text-gray-300 text-lg font-semibold  sm:text-base float-right">
+                <nav class="space-x-10 text-gray-100 text-lg font-semibold  sm:text-base float-right">
 
                     <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/">Home</a>
                     <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/blog">Blog</a>

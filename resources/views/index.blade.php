@@ -236,6 +236,8 @@
         </div>
         <img src="images\image2new.jpg" alt="test">
     </div>
+
+
     <br>
 
         <div class="sm:grid grid-cols-2 w-4/5 m-auto">

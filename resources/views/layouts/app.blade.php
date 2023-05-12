@@ -42,6 +42,8 @@
                     <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/">Home</a>
                     <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/blog">Blog</a>
                     <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/coaching">Coaching</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/supplements">Supplements</a>
+
                     @guest
                         <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))

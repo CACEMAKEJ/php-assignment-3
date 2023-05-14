@@ -13,9 +13,9 @@
     <span class="text-gray-700">
         By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
     </span>
-    <div class=" w-4/5 mx-auto py-15 border-b border-gray-800 ">
+    <div class=" w-4/5 mx-auto py-15 border-b border-gray-700 ">
         <div>
-            <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+            <img class="blog_photo" src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
         <div>
         </div>

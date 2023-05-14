@@ -6,7 +6,6 @@
         <h1 class="text-6xl">
             Blog Posts
         </h1>
-        <button id="test">test</button>
     </div>
 </div>
 

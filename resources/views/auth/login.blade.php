@@ -2,14 +2,15 @@
 
 @section('content')
 
-<main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
+<main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10  ">
+
 
 
     <div class="flex">
-        <div class="w-full">
-            <section class="flex flex-col break-words bg-black sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+        <div class="w-full bg-gray-900 ">
+            <section class="flex flex-col   break-words bg-black sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
 
-                <header class="font-semibold bg-black text-white py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+                <header class="font-semibold  border-b-2 border-yellow-300  bg-black text-white py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                     {{ __('Login') }}
                 </header>
 
@@ -56,7 +57,7 @@
                         </label>
 
                         @if (Route::has('password.request'))
-                        <a class="text-sm text-yellow-300 hover:text-yellow-200 whitespace-no-wrap no-underline hover:underline ml-auto"
+                        <a class="text-sm text-yellow-300 hover:text-yellow-200 whitespace-no-wrap no-underline  ml-auto"
                             href="{{ route('password.request') }}">
                             {{ __('Forgot Your Password?') }}
                         </a>
@@ -72,7 +73,7 @@
                         @if (Route::has('register'))
                         <p class="w-full text-xs text-center text-gray-200 my-6 sm:text-sm sm:my-8">
                             {{ __("Don't have an account?") }}
-                            <a class="text-yellow-300 hover:text-yellow-200 no-underline hover:underline" href="{{ route('register') }}">
+                            <a class="text-yellow-300 hover:text-yellow-200 no-underline" href="{{ route('register') }}">
                                 {{ __('Register') }}
                             </a>
                         </p>
@@ -83,5 +84,7 @@
             </section>
         </div>
     </div>
+
+      
 </main>
 @endsection

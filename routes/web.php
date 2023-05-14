@@ -23,7 +23,9 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::view('/coaching', 'coaching');
-Route::post('/posts/{id}/likes', 'PostsController@like')->name('posts.likes');
-Route::post('/posts/{id}/dislikes', 'PostsController@dislike')->name('posts.dislikes');
+Route::view('/coaching', 'coaching.coaching');
+Route::view('/supplements', 'supplements.supplements');
+
+Route::post('/posts/{id}/likes', 'PostController@like')->name('posts.likes');
+Route::post('/posts/{id}/dislikes', 'PostController@dislike')->name('posts.dislikes');
 

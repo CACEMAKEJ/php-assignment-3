@@ -96,7 +96,7 @@
                         <h3 class="text-2xl font-bold tracking-tight text-yellow-300">Monthly Membership</h3>
                         <br>
                       <p class="mt-6 flex items-baseline justify-center gap-x-2">
-                        <span class="text-5xl font-bold tracking-tight text-yellow-300">$215</span>
+                        <span class="text-5xl font-bold tracking-tight text-yellow-300">€215</span>
                         <span class="text-sm font-semibold leading-6 tracking-wide text-gray-400">Euro</span>
                       </p>
                       <a href="#" class="mt-10 block w-full rounded-md bg-yellow-300 px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-yellow-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Become a Alpha</a>
@@ -109,7 +109,7 @@
                           WorkOut Routines
                         </li>
                         <li class="flex gap-x-3">
-                          <svg class="h-6 w-5 flex-none text-yellow-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <svg class="h-6 w-5 flex-none text-yellow-300 ml-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
                           </svg>
                           Dietary Plans
@@ -139,11 +139,9 @@
 
                 </h1>
 
-                <a
-                    href="/blog"
-                    class="text-center bg-yellow-300 text-gray-900 py-2 px-4 font-bold text-xl uppercase">
-                    Join Now
-                </a>
+                <button class="joinBtn m-auto">
+                    Join now
+                </button>
             </div>
             </div>
         </div>
@@ -238,6 +236,8 @@
         </div>
         <img src="images\image2new.jpg" alt="test">
     </div>
+
+
     <br>
 
         <div class="sm:grid grid-cols-2 w-4/5 m-auto">

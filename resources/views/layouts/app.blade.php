@@ -19,7 +19,7 @@
 
     <script src="https://kit.fontawesome.com/c51eff10e9.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-100 h-screen antialiased leading-none font-sans">
+<body class="bg-gradient-to-r from-gray-400 via-gray-200 to-gray-400 h-screen antialiased leading-none font-sans">
     <div id="app">
         <header class="header">
 
@@ -38,14 +38,17 @@
                 </div>
                 <img src="images\newnewlogo.png" alt="test" class="logoImage">
 
-                <nav class="space-x-10 text-gray-300 text-lg font-semibold  sm:text-base float-right">
+                <nav class="space-x-10 text-gray-100 text-lg font-semibold  sm:text-base float-right">
 
-                    <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/">Home</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/blog">Blog</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/coaching">Coaching</a>
+                    <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="/supplements">Supplements</a>
+
                     @guest
-                        <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="no-underline hover:text-yellow-300 transition duration-300 delay-150 hover:delay-300" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
-                            <a class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="text-center bg-yellow-300  rounded-md text-gray-900 py-1 px-1  text-s   hover:bg-yellow-200 hover:text-black  transition duration-300 delay-150 hover:delay-300" href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
                         <span>{{ Auth::user()->name }}</span>
@@ -70,6 +73,6 @@
             @include('layouts.footer')
         </div>
     </div>
-    
+
 </body>
 </html>

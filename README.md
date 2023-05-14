@@ -45,7 +45,7 @@ Migrate the tables
 ```
 php artisan migrate
 ```
-
+Insert the data taken from the .sql file
 ## Contributing
 Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
 

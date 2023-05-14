@@ -48,11 +48,11 @@
             <a href="/blog/{{ $post->slug }}" class=" transition duration-300 delay-150 hover:delay-300 uppercase bg-yellow-300 text-gray-900 text-lg font-extrabold py-4 px-8 rounded-3xl hover:bg-black hover:text-yellow-300 hover:border-solid border-2 hover:border-gray-700 ">
                 Keep Reading
             </a>
-
-            <button id="like-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1 hover:text-green-500" data-post-id="{{ $post->id }}">
+            
+            <button id="like_button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
                 <i class="fas fa-thumbs-up"></i> {{$post->likes}} </button>
-
-            <button id="dislike-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1 hover:text-red-500" data-post-id="{{ $post->id }}">
+            
+            <button id="dislike_button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}"> 
                 <i class="fas fa-thumbs-down"></i> {{$post->dislikes}}</button>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
@@ -85,5 +85,21 @@
         </div>
     </div>
 @endforeach
-
+{{-- <script>
+         function handleDislike(){
+        var postId = $(this).data('post-id');
+        console.log(postId)
+        $.ajax({
+            url: '/posts/' + postId + '/dislike',
+            type: 'POST',
+            dataType: 'json',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: function(data) {
+                $('#dislikes-count').text(data.dislikes);
+            }
+        });
+    }
+</script> --}}
 @endsection

@@ -1,6 +1,9 @@
 $(document).ready(function() {
-    $('#like-button').click(function() {
+    console.log($('#like_button, #dislike_button'))
+    $('#like_button').click(function() {
         var postId = $(this).data('post-id');
+        
+            console.log("like");
         $.ajax({
             url: '/posts/' + postId + '/likes',
             type: 'POST',
@@ -14,8 +17,9 @@ $(document).ready(function() {
         });
     });
 
-    $('#dislike-button').click(function() {
+    $('#dislike_button').click(function() {
         var postId = $(this).data('post-id');
+        console.log(postId+"test")
         $.ajax({
             url: '/posts/' + postId + '/dislikes',
             type: 'POST',

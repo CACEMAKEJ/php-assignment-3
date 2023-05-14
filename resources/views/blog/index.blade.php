@@ -6,6 +6,7 @@
         <h1 class="text-6xl">
             Blog Posts
         </h1>
+        <button id="test">test</button>
     </div>
 </div>
 
@@ -49,10 +50,10 @@
                 Keep Reading
             </a>
             
-            <button id="like-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+            <button id="like_button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
                 <i class="fas fa-thumbs-up"></i> {{$post->likes}} </button>
             
-            <button id="dislike-button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}">
+            <button id="dislike_button" class="ml-5 text-gray-700 hover:text-gray-900 pb-1" data-post-id="{{ $post->id }}"> 
                 <i class="fas fa-thumbs-down"></i> {{$post->dislikes}}</button>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
@@ -85,5 +86,21 @@
         </div>
     </div>
 @endforeach
-
+{{-- <script>
+         function handleDislike(){
+        var postId = $(this).data('post-id');
+        console.log(postId)
+        $.ajax({
+            url: '/posts/' + postId + '/dislike',
+            type: 'POST',
+            dataType: 'json',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: function(data) {
+                $('#dislikes-count').text(data.dislikes);
+            }
+        });
+    }
+</script> --}}
 @endsection

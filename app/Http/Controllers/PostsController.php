@@ -138,7 +138,7 @@ class PostsController extends Controller
 
     public function dislike($id) {
         $post = Post::find($id);
-        $post-> dislikes++;
+        $post->dislikes++;
         $post->save();
         return response()->json(['status' => 'success', 'dislikes' => $post->dislikes]);
     }

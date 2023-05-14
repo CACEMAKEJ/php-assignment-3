@@ -235,35 +235,30 @@
 
 
     <br>
-
-        <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-black text-gray-900 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase  text-yellow-300 text-m">
-                    "Competition Time"-IrishFitness
-                </span>
-
-                <h3 class="text-xl font  text-gray-100 -bold py-10">
-                    What is the fitness county in the Ireland? and how does gym use differ from region to region? Let us know how you rank among the rest
-                     of the counties in IRELAND</h3>
-
-                <a
-                    href=""
-                    class="uppercase bg-transparent border-2 border-yellow-300 text-gray-200 text-xs font-extrabold py-3 px-5 rounded-3xl   hover:bg-yellow-300">
-                    Find Out More
-                </a>
-
+        <div class = "mb-5">
+          <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+            <div class="flex bg-black text-gray-900 pt-10">
+              <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                  <span class="uppercase  text-yellow-300 text-m">
+                      "Competition Time"-IrishFitness
+                  </span>
+  
+                  <h3 class="text-xl font  text-gray-100 -bold py-10">
+                      What is the fitness county in the Ireland? and how does gym use differ from region to region? Let us know how you rank among the rest
+                       of the counties in IRELAND</h3>
+  
+                  <a
+                      href=""
+                      class="uppercase bg-transparent border-2 border-yellow-300 text-gray-200 text-xs font-extrabold py-3 px-5 rounded-3xl   hover:bg-yellow-300">
+                      Find Out More
+                  </a>
+  
             </div>
-
+  
+          </div>
+          <img src="images\background1new.jpg"  alt="test">
         </div>
-        <img src="images\background1new.jpg" alt="test">
+        
     </div>
-
-
-        <div>
-
-        </div>
-
-
 
 @endsection

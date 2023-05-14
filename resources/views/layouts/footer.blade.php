@@ -1,7 +1,7 @@
-<footer class="bg-black py-20">
+<footer class="bg-black py-20 mb-5">
 
 
-    <div class="sm:grid grid-cols-3 w-4/5 pb-2 m-auto border-b-2 border-yellow-300">
+    <div class="sm:grid grid-cols-3 w-4/5 pb-2 m-auto border-b-2 border-yellow-300 -mt-5 ">
         <div>
             <h3 class="text-l sm:font-bold text-gray-100 ">
                 Pages

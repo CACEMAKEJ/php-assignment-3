@@ -170,8 +170,8 @@
             </p>
 
             <a
-                href="/blog"
-                class="uppercase bg-yellow-300 text-gray-800 text-s font-extrabold py-3 px-8 rounded-3xl">
+                href="http://127.0.0.1:8000/supplements"
+                class="uppercase bg-yellow-300 text-gray-800 text-s font-extrabold py-3 px-8 rounded-3xl hover:bg-yellow-200 hover:text-black transition duration-300 delay-150 hover:delay-300">
                 REACH THE PEAK TODAY!
             </a>
         </div>
@@ -186,24 +186,20 @@
             250KG DEAD LIFT - Martin M
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            120 BENCH - Nojus M
+            120KG BENCH - Nojus M
         </span>
         <span class="font-extrabold block text-4xl py-1">
             40KG BICEP CURL - Jakub L
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            185 SQUAT - Menouar K
+            185KG SQUAT - Menouar K
         </span>
         <h2 class="text-2xl pb-5 text-l"><br>
             IF THEY CAN ACHIEVE THIS SO CAN YOU
         </h2>
     </div>
 
-    <div class="text-center font-bold py-15">
-        <span class="uppercase text-s text-gray-900">
-            Blog
-        </span>
-
+    <div class="text-center font-bold py-8">
         <h2 class="text-4xl font-bold py-10">
             Recent Posts
         </h2>

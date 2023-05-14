@@ -12,7 +12,8 @@
                     We are dedicated to helping you transform your body and mind through the power of fitness
                 </p>
             </div>
-                <button class="joinBtn" >
+                <button class="joinBtn"  href="http://127.0.0.1:8000/register">>
+
                     Join now
                 </button>
             </div>

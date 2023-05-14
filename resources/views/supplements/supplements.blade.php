@@ -16,10 +16,10 @@ code gotten from https://tailwindui.com/components/application-ui/navigation/nav
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
                   <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><i class="fa fa-truck"></i> Free delivery on products over 50€</a>
-                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><i class="fa fa-globe"></i> World leaders in Bodybuilding suppliments</a>
-                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium"> <i class="fa fa-school"></i> Students get free creatine when they sign up </a>
-                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><i class="fa fa-bolt-lightning"></i> Fast and easy checkout process</a>
+                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition duration-300 delay-150 hover:delay-300"><i class="fa fa-truck"></i> Free delivery on products over 50€</a>
+                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition duration-300 delay-150 hover:delay-300"><i class="fa fa-globe"></i> World leaders in Bodybuilding suppliments</a>
+                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition duration-300 delay-150 hover:delay-300"> <i class="fa fa-school"></i> Students get free creatine when they sign up </a>
+                  <a href="#" class="text-black hover:bg-yellow-400 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition duration-300 delay-150 hover:delay-300"><i class="fa fa-bolt-lightning"></i> Fast and easy checkout process</a>
                 </div>
             </div>
           </div>

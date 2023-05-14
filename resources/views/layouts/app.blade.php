@@ -27,7 +27,7 @@
 
                 <div>
 
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-200 no-underline hover:text-white transition duration-300 delay-150 hover:delay-300">
 
                         {{ config('app.name', 'Laravel') }}
 

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="w-4/5 m-auto text-center">
-    <div class="py-15 border-b border-gray-800">
+    <div class="py-15 border-b-4 border-yellow-300">
         <h1 class="text-6xl">
             Blog Posts
         </h1>
@@ -21,7 +21,7 @@
     <div class="pt-15 w-4/5 m-auto">
         <a
             href="/blog/create"
-            class="bg-yellow-300 uppercase bg-transparent text-gray-900 text-xs font-extrabold py-3 px-5 rounded-3xl">
+            class="transition duration-300 delay-150 hover:delay-300 uppercase bg-yellow-300 text-gray-900 text-lg font-extrabold py-4 px-8 rounded-3xl hover:bg-black hover:text-yellow-300 hover:border-solid border-2 hover:border-gray-700 ">
             Create post
         </a>
     </div>

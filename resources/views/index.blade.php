@@ -96,7 +96,7 @@
                         <h3 class="text-2xl font-bold tracking-tight text-yellow-300">Monthly Membership</h3>
                         <br>
                       <p class="mt-6 flex items-baseline justify-center gap-x-2">
-                        <span class="text-5xl font-bold tracking-tight text-yellow-300">$215</span>
+                        <span class="text-5xl font-bold tracking-tight text-yellow-300">€215</span>
                         <span class="text-sm font-semibold leading-6 tracking-wide text-gray-400">Euro</span>
                       </p>
                       <a href="#" class="mt-10 block w-full rounded-md bg-yellow-300 px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-yellow-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Become a Alpha</a>
